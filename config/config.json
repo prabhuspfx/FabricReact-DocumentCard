@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "button-fabric-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/buttonFabricReact/ButtonFabricReactWebPart.js",
+          "manifest": "./src/webparts/buttonFabricReact/ButtonFabricReactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ButtonFabricReactWebPartStrings": "lib/webparts/buttonFabricReact/loc/{locale}.js"
+  }
+}
